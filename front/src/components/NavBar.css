@@ -1,0 +1,48 @@
+/* Remove ugly coloring of links */
+a {
+    text-decoration: none;
+}
+
+/* Remove bullet pts */
+li {
+    list-style: none;
+}
+/* Took styling from https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ */
+/* Nice nav-bar styling */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1cbced;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff
+}
+
+/* Style the links now,, */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #d9a448;
+    border-radius: 5px;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.header {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.div-link {
+    cursor: pointer;
+}

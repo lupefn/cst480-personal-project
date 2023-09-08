@@ -1,0 +1,14 @@
+.edit-forms {
+    display: flex;
+
+}
+
+.edit-form, .delete-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.edit-form {
+    justify-content: center;
+}

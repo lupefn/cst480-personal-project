@@ -1,0 +1,14 @@
+/* TODO: Figure this tf out why this affects positioning of other headers on different sites? like the /edit endpoint??? */
+div h2 {
+    padding-left: 20px;
+}
+
+.add-forms {
+    display: flex;
+}
+
+.add-author-form, .add-book-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
